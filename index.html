@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arboreal | Tropical Wood Design - Móveis e Tampos de Madeira Nobre para Atacado e Projetos</title>
+    <!-- Tailwind CSS para design ágil, limpo e responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para ícones de alta fidelidade -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts: Inter para tipografia moderna e luxuosa -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#1d1613',      /* Grafite Orgânico / Terra Escura */
+                        secondary: '#2e221d',    /* Marrom Ébano / Madeira Nobre */
+                        accent: '#d4a373',       /* Ouro Mel / Tom do Cerne da Madeira */
+                        accentHover: '#c38e55',  /* Dourado Ocre Hover */
+                        success: '#829c87',      /* Verde Musgo / Sustentável */
+                        bgLight: '#f9f6f0'       /* Fundo Off-White Quente */
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #2e221d;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #d4a373;
+            border-radius: 3px;
+        }
+        .glow-effect {
+            box-shadow: 0 0 15px rgba(212, 163, 115, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-primary text-stone-100 font-sans antialiased custom-scrollbar">
+
+    <!-- Topbar B2B focado em conversão de atacado -->
+    <div class="bg-black text-stone-400 text-[11px] py-2.5 border-b border-stone-900 tracking-wider">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 flex-wrap justify-center">
+                <span><i class="fa-solid fa-tree text-accent mr-1"></i> Madeira de Origem Manejada Certificada pelo IBAMA</span>
+                <span class="hidden sm:inline">|</span>
+                <span><i class="fa-solid fa-truck-ramp-box text-accent mr-1"></i> Despacho Logístico de Salto/SP para todo o país</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <span class="font-bold text-white"><i class="fa-solid fa-store text-accent mr-1"></i> Pedido Mínimo Corporativo: R$ 5.000</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Principal da Marca Arboreal -->
+    <header class="bg-primary/95 sticky top-0 z-50 shadow-lg border-b border-stone-800 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo Arboreal -->
+            <div class="flex items-center gap-3">
+                <div class="bg-gradient-to-br from-primary to-secondary text-white p-2.5 rounded-lg flex items-center justify-center border border-accent/25 glow-effect">
+                    <i class="fa-solid fa-leaf text-xl text-accent"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-black tracking-widest text-white">ARBOREAL</span>
+                    <span class="block text-[8px] uppercase tracking-[0.3em] text-stone-400 font-bold">Tropical Wood Design LTDA</span>
+                </div>
+            </div>
+
+            <!-- Dados Operacionais no Header para passar autoridade -->
+            <div class="hidden lg:flex flex-col items-end">
+                <span class="text-xs font-semibold text-stone-400">CNPJ: 23.205.777/0001-98</span>
+                <div class="flex items-center gap-1.5 mt-0.5">
+                    <span class="h-2 w-2 rounded-full bg-success animate-pulse"></span>
+                    <span class="text-[10px] font-bold text-success uppercase tracking-wider">Situação: Ativa • Desde 2015</span>
+                </div>
+            </div>
+            
+            <a href="#contato" class="bg-accent hover:bg-accentHover text-primary px-5 py-2.5 rounded-md text-xs font-bold uppercase tracking-widest transition-all flex items-center gap-2 glow-effect">
+                <i class="fa-solid fa-file-pdf"></i> Catálogo B2B 2026
+            </a>
+        </div>
+    </header>
+
+    <!-- Seção de Atalhos de Linha de Produtos no Topo -->
+    <section class="bg-secondary border-b border-stone-900 py-6">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center md:text-left mb-4">
+                <span class="text-xs font-bold text-accent uppercase tracking-widest block mb-1">Portfólio de Fabricação Premium</span>
+                <h2 class="text-base font-extrabold text-white flex items-center justify-center md:justify-start gap-2">
+                    <i class="fa-solid fa-toolbox text-accent"></i> Linhas Industriais e Soluções para Projetos:
+                </h2>
+            </div>
+            
+            <!-- Grid de Atalhos de Linhas de Móveis Nobres -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <!-- Linha 1 -->
+                <a href="#simulador" class="bg-primary/50 p-4 rounded-lg border border-stone-800 hover:border-accent hover:shadow-lg transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-secondary text-stone-300 rounded-md group-hover:bg-accent group-hover:text-primary transition-all">
+                            <i class="fa-solid fa-couch text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-white group-hover:text-accent transition-all">Mesas de Jantar</h4>
+                            <p class="text-[9px] text-stone-400 mt-0.5">Mesas Orgânicas de Tronco Inteiro</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Linha 2 -->
+                <a href="#simulador" class="bg-primary/50 p-4 rounded-lg border border-stone-800 hover:border-accent hover:shadow-lg transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-secondary text-stone-300 rounded-md group-hover:bg-accent group-hover:text-primary transition-all">
+                            <i class="fa-solid fa-border-all text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-white group-hover:text-accent transition-all">Tampos Sob Medida</h4>
+                            <p class="text-[9px] text-stone-400 mt-0.5">Cortes de Alta Espessura para Cozinhas</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Linha 3 -->
+                <a href="#simulador" class="bg-primary/50 p-4 rounded-lg border border-stone-800 hover:border-accent hover:shadow-lg transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-secondary text-stone-300 rounded-md group-hover:bg-accent group-hover:text-primary transition-all">
+                            <i class="fa-solid fa-building text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-white group-hover:text-accent transition-all">Linha Corporativa</h4>
+                            <p class="text-[9px] text-stone-400 mt-0.5">Mesas de Reunião de Alto Impacto</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Linha 4 -->
+                <a href="#simulador" class="bg-primary/50 p-4 rounded-lg border border-stone-800 hover:border-accent hover:shadow-lg transition-all duration-300 group">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-secondary text-stone-300 rounded-md group-hover:bg-accent group-hover:text-primary transition-all">
+                            <i class="fa-solid fa-pen-ruler text-base"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-extrabold text-white group-hover:text-accent transition-all">Projetos Especiais</h4>
+                            <p class="text-[9px] text-stone-400 mt-0.5">Parceria Direta com Arquitetos</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section Especializada B2B / Atacado -->
+    <section class="relative bg-gradient-to-br from-[#120e0c] via-primary to-[#080605] text-white overflow-hidden py-16 lg:py-24 border-b border-stone-900">
+        <!-- Textura de Fundo Orgânica -->
+        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#d4a373_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Conteúdo Comercial (Value Pitch) -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-accent/10 border border-accent/35 text-accent px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase">
+                        <i class="fa-solid fa-medal"></i> Alta Marcenaria Tropical • Desde 2015
+                    </div>
+                    
+                    <h1 class="text-3xl md:text-5xl font-black leading-tight tracking-tight text-white">
+                        Fabricação nacional de móveis e tampos em madeira nobre para <span class="text-accent">arquitetos, lojistas de decoração e construtoras</span>.
+                    </h1>
+                    
+                    <p class="text-stone-400 text-sm md:text-base max-w-xl leading-relaxed">
+                        Abasteça seu showroom de design ou monte projetos corporativos sob medida com a autoridade de uma marca com processos rigorosos de secagem em estufa, acabamento premium resistente a líquidos e certificações completas de origem.
+                    </p>
+
+                    <!-- Benefícios de Fábrica -->
+                    <div class="grid sm:grid-cols-2 gap-4 pt-4">
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-boxes-packing"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Pedido Mínimo B2B de R$ 5.000</h3>
+                                <p class="text-[11px] text-stone-400">Desenvolvido especificamente para lojistas do segmento de luxo e especificadores.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-shield"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Manejo 100% Legalizado</h3>
+                                <p class="text-[11px] text-stone-400">Garantia total de rastreabilidade (Ibama / DOF), assegurando o compliance da sua obra ou comércio.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-receipt"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Faturamento Simples Nacional</h3>
+                                <p class="text-[11px] text-stone-400">Tributação simplificada (enquadrada como EPP) para emissão interestadual descomplicada.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-accent bg-accent/10 p-2 rounded-md mt-0.5"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                            <div>
+                                <h3 class="font-bold text-xs uppercase tracking-wider text-white">Customização Avançada</h3>
+                                <p class="text-[11px] text-stone-400">Ajuste de medidas, acabamento fosco ou brilhante, e bases metálicas industriais personalizadas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário de Leads Corporativos -->
+                <div class="lg:col-span-5" id="contato">
+                    <div class="bg-secondary rounded-xl p-6 lg:p-8 text-stone-100 shadow-2xl border border-stone-800 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-accent/10 rounded-full blur-2xl -mr-16 -mt-16"></div>
+                        <h3 class="text-xl font-black text-white tracking-tight relative z-10">Canal de Atendimento Corporativo</h3>
+                        <p class="text-xs text-stone-400 mt-1 mb-6 relative z-10">Solicite acesso ao catálogo técnico de faturamento, tabelas para especificadores e portfólio completo.</p>
+                        
+                        <form id="leadForm" onsubmit="handleFormSubmit(event)" class="space-y-4 relative z-10">
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-stone-400 uppercase tracking-widest mb-1" for="name">Seu Nome / Representante</label>
+                                <input class="w-full bg-primary border border-stone-800 rounded-md px-4 py-2.5 text-xs text-white outline-none focus:border-accent transition-all" type="text" id="name" required placeholder="Ex: Henrique Arboreal">
+                            </div>
+                            
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-[10px] font-extrabold text-stone-400 uppercase tracking-widest mb-1" for="cnpj">CNPJ / CAU / CREA</label>
+                                    <input class="w-full bg-primary border border-stone-800 rounded-md px-4 py-2.5 text-xs text-white outline-none focus:border-accent transition-all" type="text" id="cnpj" required placeholder="23.205.777/0001-98">
+                                </div>
+                                <div>
+                                    <label class="block text-[10px] font-extrabold text-stone-400 uppercase tracking-widest mb-1" for="whatsapp">WhatsApp Corporativo</label>
+                                    <input class="w-full bg-primary border border-stone-800 rounded-md px-4 py-2.5 text-xs text-white outline-none focus:border-accent transition-all" type="tel" id="whatsapp" required placeholder="(11) 4582-2320">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-[10px] font-extrabold text-stone-400 uppercase tracking-widest mb-1" for="segment">Perfil do Solicitante</label>
+                                <select class="w-full bg-primary border border-stone-800 rounded-md px-4 py-2.5 text-xs text-stone-300 outline-none focus:border-accent transition-all" id="segment" required>
+                                    <option value="" disabled selected>Escolha sua atuação</option>
+                                    <option value="arquiteto">Arquiteto / Designer de Interiores</option>
+                                    <option value="lojista">Lojista de Decoração e Móveis Premium</option>
+                                    <option value="construtora">Construtora / Incorporadora (Projetos e Decorados)</option>
+                                    <option value="corporativo">Corporativo (Móveis de Reunião para Escritório Próprio)</option>
+                                    <option value="revenda">Distribuidor ou Exportador</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="w-full bg-accent hover:bg-accentHover text-primary py-3 rounded-md font-bold text-xs tracking-widest uppercase transition-all shadow-md transform active:scale-95 flex items-center justify-center gap-2 glow-effect">
+                                <i class="fa-solid fa-envelope-open-text"></i> Receber Catálogo Comercial
+                            </button>
+                            
+                            <p class="text-[10px] text-center text-stone-500 mt-2">
+                                <i class="fa-solid fa-shield-halved text-accent mr-1"></i> Protegido em conformidade integral com a LGPD.
+                            </p>
+                        </form>
+
+                        <!-- Mensagem de Sucesso (B2B Redirection) -->
+                        <div id="successMessage" class="hidden text-center py-6 space-y-4">
+                            <div class="mx-auto w-12 h-12 bg-accent/20 text-accent rounded-full flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-extrabold text-white">Dados Recebidos com Sucesso!</h4>
+                                <p class="text-xs text-stone-400 mt-1">Nossa equipe comercial em Salto - SP já está processando sua cotação. Clique abaixo para obter atendimento técnico imediato via WhatsApp.</p>
+                            </div>
+                            <a id="successWhatsappLink" href="#" target="_blank" class="inline-flex items-center gap-2 bg-success hover:bg-emerald-600 text-white px-5 py-2.5 rounded-md text-xs font-bold uppercase tracking-wider transition-all w-full justify-center shadow">
+                                <i class="fa-brands fa-whatsapp text-base"></i> Abrir Canal Comercial no WhatsApp
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Proposta de Valor e Diferenciais de Fábrica -->
+    <section class="py-20 bg-secondary">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-accent font-extrabold text-xs tracking-widest uppercase">Tradição Industrial e Orgânica</span>
+                <h2 class="text-3xl font-black text-white tracking-tight mt-1">Por que especificar a Arboreal?</h2>
+                <p class="text-stone-400 text-sm mt-3">Unimos o design cru e escultural das florestas brasileiras à alta tecnologia de industrialização de móveis premium, garantindo produtos estruturalmente eternos.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Diferencial 1 -->
+                <div class="bg-primary/50 p-8 rounded-xl border border-stone-800 hover:shadow-lg hover:border-accent/40 transition-all">
+                    <div class="text-accent bg-accent/10 w-12 h-12 rounded-lg flex items-center justify-center text-lg font-bold mb-6">
+                        <i class="fa-solid fa-tree"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-3">Secagem Controlada em Estufa</h3>
+                    <p class="text-xs text-stone-400 leading-relaxed">Madeiras tropicais passam por rigorosos ciclos de secagem interna controlada eletronicamente para evitar trincas, empenamentos ou desajustes de umidade no ambiente final.</p>
+                </div>
+                
+                <!-- Diferencial 2 -->
+                <div class="bg-primary/50 p-8 rounded-xl border border-stone-800 hover:shadow-lg hover:border-accent/40 transition-all">
+                    <div class="text-accent bg-accent/10 w-12 h-12 rounded-lg flex items-center justify-center text-lg font-bold mb-6">
+                        <i class="fa-solid fa-flask"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-3">Acabamento de Alta Resistência</h3>
+                    <p class="text-xs text-stone-400 leading-relaxed">Tratamento de superfície com resinas e vernizes especiais importados, assegurando proteção extrema contra manchas d'água, copos quentes, álcool e riscos do uso cotidiano.</p>
+                </div>
+
+                <!-- Diferencial 3 -->
+                <div class="bg-primary/50 p-8 rounded-xl border border-stone-800 hover:shadow-lg hover:border-accent/40 transition-all">
+                    <div class="text-accent bg-accent/10 w-12 h-12 rounded-lg flex items-center justify-center text-lg font-bold mb-6">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white mb-3">Selo de Legitimidade Ecológica</h3>
+                    <p class="text-xs text-stone-400 leading-relaxed">Emissão imediata de guias florestais e notas fiscais amparadas pelo DOF (Documento de Origem Florestal). Garantimos procedência ética em cada mesa.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seção Interativa: Simulador de Orçamento de Atacado Arboreal -->
+    <section id="simulador" class="py-16 bg-primary text-white relative overflow-hidden border-t border-stone-900">
+        <div class="max-w-4xl mx-auto px-4 relative z-10">
+            <div class="text-center mb-10">
+                <span class="text-accent text-xs font-bold uppercase tracking-widest">Simulador de Condições B2B</span>
+                <h2 class="text-2xl md:text-3xl font-black mt-1">Calcule Suas Margens e Descontos de Volume</h2>
+                <p class="text-xs text-stone-400 mt-2">Ajuste o controle deslizante abaixo de acordo com sua projeção de compras corporativas e veja as condições especiais.</p>
+            </div>
+
+            <div class="bg-secondary rounded-xl p-6 md:p-8 border border-stone-800 shadow-2xl">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Controles -->
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block text-xs font-bold text-stone-300 uppercase tracking-wider mb-2">1. Escolha a Categoria de Produto:</label>
+                            <div class="grid grid-cols-2 gap-3">
+                                <button type="button" onclick="setSimulateType('mesas')" id="simTypeMesas" class="bg-accent/10 border-2 border-accent text-white px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5">
+                                    <i class="fa-solid fa-couch text-accent"></i> Mesas Orgânicas
+                                </button>
+                                <button type="button" onclick="setSimulateType('corporativo')" id="simTypeCorp" class="bg-primary border border-stone-800 text-stone-400 hover:bg-stone-800 px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5">
+                                    <i class="fa-solid fa-chair text-accent"></i> Corporativo / Tampos
+                                </button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-xs font-bold mb-2">
+                                <span class="text-stone-300 uppercase tracking-wider">2. Projete a Demanda do Projeto:</span>
+                                <span class="text-accent font-extrabold" id="rangeValue">R$ 5.000</span>
+                            </div>
+                            <input type="range" id="budgetRange" min="5000" max="150000" step="5000" value="5000" oninput="updateSimulation()" class="w-full accent-accent bg-stone-800 h-2 rounded-md appearance-none cursor-pointer">
+                            <div class="flex justify-between text-[10px] text-stone-500 mt-1">
+                                <span>R$ 5.000 (Mínimo B2B)</span>
+                                <span>R$ 150.000+</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Resultados da Simulação -->
+                    <div class="bg-[#0f0b09] p-6 rounded-lg border border-stone-800 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[9px] bg-accent/20 text-accent font-extrabold px-2 py-1 rounded-md uppercase tracking-widest">Nível de Desconto no Lote</span>
+                            <div class="mt-4">
+                                <div class="text-3xl font-black text-white" id="discountPercent">Preço de Fábrica</div>
+                                <p class="text-xs text-stone-400 mt-1">Margem Estadia de Revenda: <strong class="text-accent" id="resMargin">35% a 40% Bruto</strong></p>
+                            </div>
+                        </div>
+                        
+                        <div class="border-t border-stone-800 pt-4 mt-4 space-y-3">
+                            <div class="flex justify-between text-[11px]">
+                                <span class="text-stone-400">Benefício Logístico:</span>
+                                <span class="font-bold text-white" id="logDetails">FOB Salto/SP</span>
+                            </div>
+                            <div class="flex justify-between text-[11px]">
+                                <span class="text-stone-400">Canal Fiscal:</span>
+                                <span class="font-bold text-white">Simples Nacional (SP)</span>
+                            </div>
+                            <a href="#contato" class="block text-center bg-accent hover:bg-accentHover text-primary py-2.5 rounded-md text-xs font-bold uppercase tracking-widest transition-all mt-2 glow-effect">
+                                Garantir Condições Deste Lote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social e Dados Estatísticos de Produção -->
+    <section class="bg-black text-white py-12 border-t border-stone-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <!-- Dado 1 -->
+                <div class="space-y-1">
+                    <div class="text-3xl md:text-4xl font-black text-accent tracking-tight">10+ Anos</div>
+                    <div class="text-[10px] text-stone-400 uppercase tracking-widest font-bold">Início em Setembro de 2015</div>
+                </div>
+                <!-- Dado 2 -->
+                <div class="space-y-1">
+                    <div class="text-3xl md:text-4xl font-black text-accent tracking-tight">+1.500</div>
+                    <div class="text-[10px] text-stone-400 uppercase tracking-widest font-bold">Projetos Executados no Brasil</div>
+                </div>
+                <!-- Dado 3 -->
+                <div class="space-y-1">
+                    <div class="text-3xl md:text-4xl font-black text-accent tracking-tight">100% Legal</div>
+                    <div class="text-[10px] text-stone-400 uppercase tracking-widest font-bold">Selo Ibama e Origem de Manejo</div>
+                </div>
+                <!-- Dado 4 -->
+                <div class="space-y-1">
+                    <div class="text-3xl md:text-4xl font-black text-accent tracking-tight">Salto - SP</div>
+                    <div class="text-[10px] text-stone-400 uppercase tracking-widest font-bold">Matriz Fabril Ativa</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Portfólio & Infraestrutura Premium -->
+    <section id="galeria" class="py-20 bg-secondary border-t border-stone-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Grade Visual do Portfólio -->
+                <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+                    <div class="space-y-4">
+                        <div class="h-44 rounded-xl overflow-hidden shadow-md border border-stone-800">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=400&q=80" alt="Mesa de Jantar de Madeira Maciça Orgânica" onerror="this.src='https://placehold.co/400x300/3d2b1f/ffffff?text=Arboreal+Mesa'">
+                        </div>
+                        <div class="h-60 rounded-xl overflow-hidden shadow-md border border-stone-800">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=400&q=80" alt="Ambiente de Sala com Mesa Arboreal" onerror="this.src='https://placehold.co/400x400/3d2b1f/ffffff?text=Design+Arboreal'">
+                        </div>
+                    </div>
+                    <div class="space-y-4 pt-8">
+                        <div class="h-60 rounded-xl overflow-hidden shadow-md border border-stone-800">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=400&q=80" alt="Showroom e Marcenaria Exclusiva" onerror="this.src='https://placehold.co/400x400/3d2b1f/ffffff?text=Ambiente+Madeira'">
+                        </div>
+                        <div class="h-44 rounded-xl overflow-hidden shadow-md border border-stone-800">
+                            <img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80" alt="Processo de Acabamento e Design" onerror="this.src='https://placehold.co/400x300/3d2b1f/ffffff?text=Madeira+Tropical'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Histórico da Empresa para Google Ads Trust -->
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-accent font-extrabold text-xs tracking-widest uppercase">Especialistas em Wood Design</span>
+                    <h2 class="text-3xl font-black text-white tracking-tight">O Encontro Entre a Natureza e a Engenharia de Móveis</h2>
+                    <p class="text-stone-400 text-sm leading-relaxed">
+                        Fundada em **03/09/2015** como **Tropical Wood Design LTDA**, a marca **Arboreal** consolidou sua operação industrial na cidade de Salto - SP, atendendo com maestria os escritórios de arquitetura mais renomados e lojistas de alta decoração de todo o Brasil.
+                    </p>
+                    <p class="text-stone-400 text-sm leading-relaxed">
+                        Cada tampo de madeira maciça é único e passa por um minucioso processo de cura, nivelamento e proteção que respeita os veios, as bordas e a alma original de árvores de grande porte caídas naturalmente ou manejadas sustentavelmente.
+                    </p>
+                    
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-3">
+                            <span class="text-accent text-base"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="text-xs font-bold text-stone-300">Estruturas preparadas contra o empenamento natural por variações de clima</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-accent text-base"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="text-xs font-bold text-stone-300">Sede fabril própria de alta capacidade e facilidade logística no interior de SP</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-accent text-base"><i class="fa-solid fa-circle-check"></i></span>
+                            <span class="text-xs font-bold text-stone-300">Transparência jurídica total com DOF emitido no nome do comprador final</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Localização e Conformidade Cadastral -->
+    <section id="localizacao" class="py-16 bg-primary border-t border-stone-900">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-accent font-extrabold text-xs tracking-widest uppercase">Parque de Produção Matriz</span>
+                <h2 class="text-2xl font-black text-white tracking-tight mt-1">Conformidade e Transparência Industrial</h2>
+                <p class="text-stone-400 text-xs mt-2">Diferente de representantes puramente digitais, a Arboreal conta com parque fabril e operacional para processamento de faturamento corporativo seguro.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Informações do Registro Corporativo -->
+                <div class="bg-secondary p-6 md:p-8 rounded-xl border border-stone-800 flex gap-4">
+                    <div class="text-accent text-2.5xl pt-1">
+                        <i class="fa-solid fa-file-contract"></i>
+                    </div>
+                    <div>
+                        <span class="bg-primary text-stone-300 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">Compliance Cadastral</span>
+                        <h3 class="font-bold text-base text-white mt-2">Dados Tributários e Governança</h3>
+                        <p class="text-xs text-stone-400 mt-2 leading-relaxed">Sociedade Empresária Limitada enquadrada como Empresa de Pequeno Porte (EPP). Optante pelo Simples Nacional de forma regularizada e ativa desde sua constituição em 2015, assegurando total isenção e desburocratização de substituição tributária.</p>
+                        <p class="text-[10px] font-semibold text-stone-500 mt-3">Razão Social: Tropical Wood Design LTDA • Inscrição Estadual: 600.246.361.112 • Capital Social: R$ 70.000,00</p>
+                    </div>
+                </div>
+
+                <!-- Endereço e Logística no Interior de São Paulo -->
+                <div class="bg-secondary p-6 md:p-8 rounded-xl border border-stone-800 flex gap-4">
+                    <div class="text-accent text-2.5xl pt-1">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <span class="bg-primary text-stone-300 text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">Localização da Fábrica</span>
+                        <h3 class="font-bold text-base text-white mt-2">Salto - SP</h3>
+                        <p class="text-xs text-stone-400 mt-2 leading-relaxed">Localizada na Rua Otto Halter, 1274, Distrito Industrial do Lageado, CEP: 13329-429. Posição extremamente estratégica no interior do estado de São Paulo, conectada às principais rodovias do país para escoamento logístico ágil.</p>
+                        <p class="text-[10px] text-stone-500 mt-2">Rua Otto Halter, 1274 • Bairro: Distrito Industrial do Lageado • CEP: 13329-429</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ - Dúvidas Comuns B2B -->
+    <section class="py-16 bg-secondary border-t border-stone-900">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <span class="text-accent text-xs font-bold uppercase tracking-widest">Suporte e Processo Técnico</span>
+                <h2 class="text-2xl font-black text-white mt-1">Perguntas Frequentes (Atacado & Especificadores)</h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-primary/50 p-5 rounded-lg border border-stone-800 shadow-sm">
+                    <button class="w-full text-left flex justify-between items-center font-bold text-sm text-white" onclick="toggleFaq(1)">
+                        <span>Qual é a política de pedido mínimo e faturamento comercial?</span>
+                        <i id="faq-icon-1" class="fa-solid fa-chevron-down text-accent"></i>
+                    </button>
+                    <div id="faq-content-1" class="hidden mt-3 text-xs text-stone-400 leading-relaxed border-t border-stone-800 pt-3">
+                        Por sermos uma marcenaria especializada em móveis maciços de grande escala e alta marcenaria, nosso ticket mínimo operacional para faturamento corporativo ou pedidos B2B é de **R$ 5.000,00**.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-primary/50 p-5 rounded-lg border border-stone-800 shadow-sm">
+                    <button class="w-full text-left flex justify-between items-center font-bold text-sm text-white" onclick="toggleFaq(2)">
+                        <span>A Arboreal possui certificação ambiental de origem?</span>
+                        <i id="faq-icon-2" class="fa-solid fa-chevron-down text-accent"></i>
+                    </button>
+                    <div id="faq-content-2" class="hidden mt-3 text-xs text-stone-400 leading-relaxed border-t border-stone-800 pt-3">
+                        Sim. Toda a nossa matéria-prima é rigorosamente licenciada e manejada sob as diretrizes do Ibama. Emitimos o DOF (Documento de Origem Florestal) correspondente para cada peça faturada, garantindo conformidade legal completa para construtoras e arquitetos.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-primary/50 p-5 rounded-lg border border-stone-800 shadow-sm">
+                    <button class="w-full text-left flex justify-between items-center font-bold text-sm text-white" onclick="toggleFaq(3)">
+                        <span>Qual é o prazo de entrega padrão a partir de Salto/SP?</span>
+                        <i id="faq-icon-3" class="fa-solid fa-chevron-down text-accent"></i>
+                    </button>
+                    <div id="faq-content-3" class="hidden mt-3 text-xs text-stone-400 leading-relaxed border-t border-stone-800 pt-3">
+                        Móveis sob encomenda ou tampos especiais de grande porte possuem prazo de produção e cura de **30 a 45 dias**. Peças disponíveis em nosso showroom para pronta-entrega ou lotes padronizados podem ser despachados em até **10 dias úteis**.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Call To Action Final (CTA) -->
+    <section class="bg-primary py-16 text-white text-center border-t border-stone-900">
+        <div class="max-w-4xl mx-auto px-4 space-y-6">
+            <h2 class="text-2xl md:text-3.5xl font-black tracking-tight">Eleve Seus Showrooms e Projetos ao Estado da Arte</h2>
+            <p class="text-sm text-stone-400 max-w-xl mx-auto">
+                Fale agora mesmo com nossa assessoria técnica de engenharia e marcenaria em Salto - SP via WhatsApp para obter um orçamento exclusivo.
+            </p>
+            <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="https://wa.me/551145822320?text=Olá! Gostaria de falar com o time técnico da Arboreal sobre tampos e mesas de madeira sob medida." class="inline-flex items-center gap-2.5 bg-accent text-primary hover:bg-accentHover px-8 py-4 rounded-md font-extrabold text-xs tracking-wider uppercase shadow-2xl transition-all glow-effect" target="_blank">
+                    <i class="fa-brands fa-whatsapp text-base"></i> Atendimento WhatsApp (11) 4582-2320
+                </a>
+                <a href="#contato" class="inline-flex items-center gap-1.5 border border-stone-800 hover:border-stone-500 px-6 py-4 rounded-md font-extrabold text-xs tracking-wider uppercase transition-all">
+                    Solicitar Catálogo Digital
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botão de WhatsApp Comercial Flutuante -->
+    <a href="https://wa.me/551145822320?text=Olá! Gostaria de falar com o time técnico da Arboreal sobre tampos e mesas de madeira sob medida." class="fixed bottom-6 right-6 bg-emerald-600 hover:bg-emerald-700 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl z-50 transition-all hover:scale-110 animate-bounce" target="_blank" title="Fale com o time Arboreal">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Rodapé e Compliance Google Ads -->
+    <footer class="bg-[#0c0807] text-stone-500 text-xs py-16 border-t border-stone-950">
+        <div class="max-w-7xl mx-auto px-4">
+            
+            <div class="grid md:grid-cols-12 gap-12 border-b border-stone-900 pb-12 mb-12">
+                <!-- Coluna 1: Dados Jurídicos -->
+                <div class="md:col-span-5 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="bg-gradient-to-br from-primary to-secondary text-white p-2 rounded flex items-center justify-center border border-stone-800">
+                            <i class="fa-solid fa-leaf text-xs text-accent"></i>
+                        </div>
+                        <span class="text-xs font-black tracking-widest text-white uppercase">TROPICAL WOOD DESIGN LTDA</span>
+                    </div>
+                    <p class="leading-relaxed text-stone-500 text-[11px]">
+                        **Arboreal** • CNPJ: 23.205.777/0001-98 • Matriz de Operações.<br>
+                        Produção especializada de mesas de jantar orgânicas, tampos maciços de alta resistência para bancadas de luxo e projetos de mobiliário corporativo personalizados.
+                    </p>
+                    <p class="text-[9px] text-stone-600">
+                        Regime de Tributação: Optante pelo Simples Nacional • Sede industrial estabelecida em Salto - SP de forma ininterrupta desde 03/09/2015.
+                    </p>
+                </div>
+
+                <!-- Coluna 2: Faturamento & Suporte -->
+                <div class="md:col-span-3 space-y-3">
+                    <h4 class="font-extrabold text-white text-[11px] uppercase tracking-widest">Canais de Atendimento</h4>
+                    <ul class="space-y-2 text-stone-500 text-[11px]">
+                        <li><i class="fa-solid fa-phone text-accent mr-1.5"></i> (11) 4582-2320</li>
+                        <li><i class="fa-solid fa-envelope text-accent mr-1.5"></i> henrique@arboreal.com.br</li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Matriz SP -->
+                <div class="md:col-span-4 space-y-3">
+                    <h4 class="font-extrabold text-white text-[11px] uppercase tracking-widest">Parque Fabril</h4>
+                    <p class="leading-relaxed text-[11px] text-stone-500">
+                        Rua Otto Halter, 1274<br>
+                        Bairro: Distrito Industrial do Lageado • CEP: 13329-429<br>
+                        Salto - SP
+                    </p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Rua+Otto+Halter+1274+Salto+Sao+Paulo" target="_blank" class="inline-flex items-center gap-1.5 text-accent hover:text-white font-bold mt-1 transition-all">
+                        <i class="fa-solid fa-map-location-dot text-xs"></i> Abrir Localização no Google Maps
+                    </a>
+                </div>
+            </div>
+
+            <!-- Rodapé Legal (Google Ads Compliant) -->
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-center md:text-left text-[11px] text-stone-600">
+                    &copy; 2026 Arboreal Wood Design. Todos os direitos reservados. CNPJ: 23.205.777/0001-98.
+                </p>
+                
+                <!-- Links de Políticas e Termos Obrigatórios para Aprovação do Google Ads -->
+                <div class="flex items-center gap-4 flex-wrap justify-center text-[11px] text-stone-600 font-bold">
+                    <a href="javascript:void(0)" onclick="openModal('privacy')" class="hover:text-stone-400 transition-all">Política de Privacidade</a>
+                    <span>|</span>
+                    <a href="javascript:void(0)" onclick="openModal('terms')" class="hover:text-stone-400 transition-all">Termos de Uso</a>
+                    <span>|</span>
+                    <a href="javascript:void(0)" onclick="openModal('cookies')" class="hover:text-stone-400 transition-all">Política de Cookies</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Modal Dinâmico de Termos e Políticas (Regra Google Ads) -->
+    <div id="policyModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] hidden items-center justify-center p-4">
+        <div class="bg-secondary border border-stone-800 rounded-xl max-w-2xl w-full p-6 md:p-8 max-h-[80vh] overflow-y-auto relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-stone-400 hover:text-white text-lg">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h3 id="modalTitle" class="text-lg font-bold text-white mb-4 uppercase tracking-wider"></h3>
+            <div id="modalContent" class="text-xs text-stone-400 leading-relaxed space-y-4"></div>
+        </div>
+    </div>
+
+    <!-- Script de Dinâmica Comercial e Integrações -->
+    <script>
+        // Configuração de dados de simulação
+        let currentType = 'mesas';
+
+        function setSimulateType(type) {
+            currentType = type;
+            const btnMesas = document.getElementById('simTypeMesas');
+            const btnCorp = document.getElementById('simTypeCorp');
+            
+            if (type === 'mesas') {
+                btnMesas.className = 'bg-accent/10 border-2 border-accent text-white px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+                btnCorp.className = 'bg-primary border border-stone-800 text-stone-400 hover:bg-stone-800 px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+            } else {
+                btnCorp.className = 'bg-accent/10 border-2 border-accent text-white px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+                btnMesas.className = 'bg-primary border border-stone-800 text-stone-400 hover:bg-stone-800 px-3 py-2.5 rounded-md text-xs font-bold tracking-wider transition-all flex items-center justify-center gap-1.5';
+            }
+            updateSimulation();
+        }
+
+        function updateSimulation() {
+            const range = document.getElementById('budgetRange');
+            const value = parseInt(range.value);
+            
+            // Formatando o valor em Moeda Brasileira (R$)
+            document.getElementById('rangeValue').innerText = value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+            
+            let discount = 'Preço de Fábrica';
+            let margin = '35% a 40% Bruto';
+            let logisticsTier = 'FOB Salto/SP';
+            
+            if (value >= 100000) {
+                discount = '20% OFF Comercial';
+                margin = '45% a 55% Bruto';
+                logisticsTier = 'Frete Segurado Incluso no Lote';
+            } else if (value >= 50000) {
+                discount = '15% OFF Comercial';
+                margin = '40% a 50% Bruto';
+                logisticsTier = 'Subsídio de Frete para Capital';
+            } else if (value >= 20000) {
+                discount = '10% OFF Comercial';
+                margin = '35% a 45% Bruto';
+                logisticsTier = 'Transportadoras Homologadas Atacado';
+            }
+            
+            if (currentType === 'corporativo') {
+                logisticsTier += ' (Acabamento Fosco Premium)';
+            }
+            
+            document.getElementById('discountPercent').innerText = discount;
+            document.getElementById('resMargin').innerText = margin;
+            document.getElementById('logDetails').innerText = logisticsTier;
+        }
+
+        // Lógica de FAQ Accordion
+        function toggleFaq(index) {
+            const content = document.getElementById(`faq-content-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // Envio do formulário de Orçamentos (B2B Leads)
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const cnpj = document.getElementById('cnpj').value;
+            const whatsapp = document.getElementById('whatsapp').value;
+            const segment = document.getElementById('segment').value;
+            
+            // Criando mensagem personalizada para o WhatsApp comercial da fábrica
+            const textMsg = `Olá! Meu nome é ${encodeURIComponent(name)}, falo em nome do registro comercial ${encodeURIComponent(cnpj)}. Gostaria de solicitar o catálogo corporativo da Arboreal para a modalidade de ${encodeURIComponent(segment)}.`;
+            const waUrl = `https://wa.me/551145822320?text=${textMsg}`;
+            
+            // Redirecionamento amigável pós-lead
+            document.getElementById('leadForm').classList.add('hidden');
+            const successDiv = document.getElementById('successMessage');
+            successDiv.classList.remove('hidden');
+            document.getElementById('successWhatsappLink').setAttribute('href', waUrl);
+        }
+
+        // Textos dos Termos Regulamentares (Compliance Google Ads)
+        const policyTexts = {
+            privacy: {
+                title: "Política de Privacidade",
+                text: `<p>A presente política regula o tratamento de informações corporativas e dados pessoais de leads captados por meio desta landing page de faturamento atacadista e especificações técnicas da Arboreal (Tropical Wood Design LTDA).</p>
+                       <p><strong>1. Coleta de Informações:</strong> Coletamos dados cadastrais comerciais como nome do profissional ou representante, CNPJ/CAU, telefone de contato corporativo e perfil de compras atacadistas com o único propósito de prover cotações industriais e de alta marcenaria customizadas.</p>
+                       <p><strong>2. Tratamento de Dados:</strong> Nenhuma informação coletada é vendida ou transferida para terceiros de qualquer natureza. Seus dados são processados localmente em nossa matriz de Salto - SP de forma estritamente segura e confidencial.</p>
+                       <p><strong>3. Armazenamento e Segurança:</strong> Mantemos protocolos técnicos adequados de segurança da informação para garantir a integridade dos dados inseridos em conformidade com as diretrizes da Lei Geral de Proteção de Dados (LGPD).</p>`
+            },
+            terms: {
+                title: "Termos de Uso",
+                text: `<p>Ao navegar por esta landing page de produtos de alta marcenaria, você concorda de forma expressa e integral com as diretrizes e regras comerciais estipuladas pela Tropical Wood Design LTDA.</p>
+                       <p><strong>1. Foco Comercial B2B:</strong> O fornecimento de tampos sob medida, envio de catálogos comerciais com preços especiais e acesso a faturamentos com descontos progressivos está sujeito à validação prévia de CNPJ ativo ou credenciais profissionais válidas (CAU/CREA).</p>
+                       <p><strong>2. Ticket Mínimo de Faturamento:</strong> Como fabricante e marcenaria especializada de alta tiragem de madeira maciça, reservamo-nos o direito de processar faturamentos unicamente a partir do valor mínimo de R$ 5.000,00.</p>
+                       <p><strong>3. Responsabilidade Logística:</strong> Os fretes logísticos de entrega de peças de grande porte são negociados individualmente por meio de transportadoras especializadas em transporte de carga sensível e pesada.</p>`
+            },
+            cookies: {
+                title: "Política de Cookies",
+                text: `<p>Utilizamos cookies analíticos e de remarketing de ferramentas de anúncios (Google Ads, Meta Pixels) de forma a analisar conversões, facilitar o preenchimento de leads de orçamentos e otimizar campanhas promocionais corporativas da marca Arboreal.</p>
+                       <p><strong>Configurações do Navegador:</strong> Você pode, a qualquer momento, revisar ou desativar o rastreamento de cookies alterando as diretrizes de privacidade nas configurações de seu navegador de internet de forma independente.</p>`
+            }
+        };
+
+        function openModal(type) {
+            const modal = document.getElementById('policyModal');
+            const titleEl = document.getElementById('modalTitle');
+            const contentEl = document.getElementById('modalContent');
+            
+            titleEl.innerText = policyTexts[type].title;
+            contentEl.innerHTML = policyTexts[type].text;
+            
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('policyModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        // Inicialização do simulador ao carregar
+        window.onload = function() {
+            updateSimulation();
+        }
+    </script>
+</body>
+</html>
