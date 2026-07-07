@@ -1,0 +1,26 @@
+Olá,
+
+a Cloudflare recebeu uma denúncia de phishing referente a: centralarboreal-es[.]pages[.]d ev.
+
+Restringimos o acesso ao(s) URL(s) denunciado(s).
+
+Para responder a esta denúncia através do painel de controle do Cloudflare, você pode clicar neste link: https://dash.cloudflare.com/379a3dcb0100a756225b975c7bd915ec/abuse-reports/report/0200d2f7826f55ef/blocked-content e selecionar " Solicitar revisão "
+
+, ou siga estas instruções: 1. Faça login no painel de controle do Cloudflare
+. 2. Navegue até "Gerenciar conta" > "Denúncias de abuso".
+3. Encontre a denúncia de abuso 0200d2f7826f55ef . 4. Selecione "Ver medidas de mitigação "
+> "Solicitar revisão".
+
+
+Se você tiver dúvidas sobre esta denúncia de abuso, envie um e-mail para abusereply@cloudflare.com com os seguintes detalhes:
+- O número de identificação da denúncia incluído na linha de assunto
+. - Quaisquer detalhes adicionais, contexto ou evidências que você possa fornecer sobre o conteúdo denunciado.
+
+Segue abaixo o relatório que recebemos:
+
+ID do relatório: 0200d2f7826f55ef
+Logs ou outras evidências de abuso:  centralarboreal-es.pages.dev é uma isca de phishing hospedada diretamente em SUAS Páginas do Cloudflare. A página (título exibido 'Portal do Cliente', caminho /moveis/) injeta um redirecionamento do lado do cliente: location.href = 'https://c.debitos-ipva.org/ms/' - enviando a vítima para um site falso de phishing do governo brasileiro (DETRAN/SEFAZ IPVA - imposto sobre veículos) que coleta a placa do veículo (Placa), Renavam e CPF da vítima e cobra um imposto sobre veículos fraudulento (IPVA) via PIX. É anunciado por meio de anúncios pagos no Google Search, se passando pelo DETRAN do estado brasileiro.
+
+Como está hospedado no Cloudflare Pages, você pode remover a implantação/projeto diretamente (não apenas o proxy). Por favor, remova o projeto centralarboreal-es Pages e tome as devidas providências em relação à conta.
+
+O destino de redirecionamento, c.debitos-ipva.org/ms/ , também utiliza proxy da Cloudflare (servidores de nomes harlan.ns.cloudflare.com e wanda.ns.cloudflare.com ; registrador Dynadot) e é um conhecido ponto de acesso para ataques de phishing da DETRAN/IPVA, ativo desde pelo menos 03/07/2026. Verificado como ativo em 07/07/2026.
